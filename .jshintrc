@@ -87,6 +87,9 @@
     "yui"           : false,    // Yahoo User Interface
 
     // Custom Globals
-    "predef"        : ["angular", "chai"],
-    "globals"       : {}        // additional predefined global variables
+    "predef"        : ["angular", "chai", "jquery"],
+    "globals"       : {
+                        "$": false,
+                        "jquery": false
+                      }        // additional predefined global variables
 }
